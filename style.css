@@ -1,0 +1,125 @@
+@media all and (max-width:1440px){
+  
+
+  @font-face {
+      font-family: Outfit;
+      src: url(Outfit-Regular.ttf);
+      }
+  body {
+    font-family: Outfit;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+  }
+
+  .card {
+    width: 150px;                
+    display: flex;               
+    flex-direction: column;      
+    border: 1px solid hsl(215, 51%, 70%);;
+    border-radius: 4px;           
+    overflow: hidden;            
+    margin: 5px;                 
+  }
+  
+  .card-header {
+    color:  hsl(215, 51%, 70%);;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid  hsl(215, 51%, 70%);;
+    background-color: #FFEBEE;
+    padding: 5px 10px;
+  }
+  
+  .card-main {
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;   
+    align-items: center;        
+    padding: 15px 0;           
+  }
+  
+  .material-icons {
+    font-size: 36px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 5px;
+  }
+  
+  .main-description {
+    color: hsl(215, 32%, 27%);
+    font-size: 12px;
+    text-align: center;
+  }
+
+.transport {
+  width: 150px;             
+  display: flex;               
+  flex-direction: column;      
+  border: 1px solid hsl(39, 100%, 56%);    
+  border-radius: 4px;          
+  overflow: hidden;             
+  margin: 5px;                 
+}
+
+.transport-header {
+  color: hsl(39, 100%, 56%);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.5);
+  padding: 5px 10px;
+}
+
+.transport-main {
+  display: flex;              
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;       
+  padding: 15px 0;           
+}
+
+.main-description1 {
+  color: hsl(39, 100%, 56%);
+  font-size: 12px;
+  text-align: center;
+}
+
+.build {
+  width: 150px;                
+  display: flex;                
+  flex-direction: column;       
+  border: 1px solid hsla(241, 100%, 89%, 1);  
+  border-radius: 4px;           
+  overflow: hidden;            
+  margin: 5px;                  
+}
+
+.build-header {
+  color: hsla(241, 100%, 89%, 1);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid hsla(224, 30%, 27%,0.5);;
+  background-color: hsla(224, 30%, 27%,0.5);
+  padding: 5px 10px;
+}
+
+.build-main {
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;   
+  align-items: center;        
+  padding: 15px 0;            
+}
+.main-description2 {
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+  text-align: center;
+}
+}
